@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    {{ partial "head.html" . }}
+</head>
+
+<body class="global single">
+  <header>
+    {{ partial "header_uoc.html" . }}
+  </header>
+
+  <div id="content">
+  <!--MODAL 2-->
+    <div class="info-link" data-modal="modal2">
+      <div class="container">
+        <div class="inside-container">
+
+          <!--ROW-->
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="breadcrumbs">
+                {{ partial "breadcrumbs" . }}
+              </div>
+            </div>
+          </div>
+          <!--./ROW-->
+
+          <!--ROW-->
+          <div class="row contingut">
+            {{ .Content }}
+          </div> 
+          <!--./ROW-->
+
+          </div>
+        </div>
+      </div>
+      <!--/MODAL 2-->
+    </div>
+
+    <footer role="contentinfo" class="hidden-xs">
+        {{ partial "footer.html" . }}            
+    </footer>
+
+</body>
+
+</html>
