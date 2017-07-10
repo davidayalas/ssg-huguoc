@@ -1,4 +1,4 @@
-baseURL = "http://localhost"
+baseURL = "http://davidayala.eu/ssg-huguoc/"
 languageCode = "ca-es"
 title = "UOC Static Site Generator"
 
