@@ -18,5 +18,5 @@ deploy:
     #      node index-algolia.js
     - lukevivier/gh-pages@0.2.1:
         token: $GIT_TOKEN
-        domain: canigo.ctti.gencat.cat
+        domain: http://davidayala.eu/ssg-huguoc
         basedir: public
