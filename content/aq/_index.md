@@ -1,5 +1,5 @@
 +++
 title = "Arquitectura"
-description = "..."
+description = "......"
 weight = 1
 +++
