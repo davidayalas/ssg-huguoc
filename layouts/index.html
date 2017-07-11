@@ -31,7 +31,9 @@
                     <a href="{{.Site.Params.projectDir}}{{.URL}}">
                         <div class="box model-3">
                             <div class="background-zone">
-                                <!--img src="images/img-2.png" class="" alt=""-->
+                                {{ if index .Params "image" }}
+                                <img src="{{index .Params "image" }}" class="" alt="">
+                                {{ end }}
                                 <div class="background"></div>
                             </div>
                             <div class="relative">
