@@ -7,4 +7,4 @@ layoutdir = "layouts"
 publishdir = "public"
 
 [params]
-  _projectDir = "/ssg-huguoc"
+  projectDir = "/ssg-huguoc"
