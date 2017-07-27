@@ -4,4 +4,4 @@ weight = 2
 +++
 
 <div id="roadmap"></div>
-<script src="/js/roadmap.js"></script>
+<script src="ssg-huguoc/js/roadmap.js"></script>
