@@ -11,13 +11,13 @@ Principis estratègics
 {{% /bloc_titol %}}
 
 {{% bloc_seccio %}}
-* Els nous sistemes i aplicacions es regiran pels principis de cloud first (i preferentment a cloud públic), mobile first (en el sentit de multidispositiu) i seran data-centric  (la dada com a actiu més important de l'organització)
+* Els nous sistemes i aplicacions es regiran pels principis de **cloud first** (i preferentment a **cloud públic**), **mobile first** (en el sentit de multidispositiu) i seran **data-centric**  (la dada com a actiu més important de l'organització)
  
-* A l'hora de construir sistemes d'informació, s'optarà preferentment per la construcció basada en serveis administrats (això és, operació inclosa en el servei). Això aplica tant:
+* A l'hora de construir sistemes d'informació, s'optarà preferentment per la construcció basada en *serveis administrats* (això és, operació inclosa en el servei). Això aplica tant:
 	+ als building blocks de desplegament: PaaS, CaaS, FaaS, SaaS per sobre de IaaS/VM
     + als serveis existents en els clouds de referència: serveis de notificacions, cues, CDN, storage, …, per sobre de solucions desenvolupades a mida
  
-* Ponderar sempre tecnologia vs negoci: la millor tecnologia no sempre és la millor solució per a l'organització → s'han de balancejar aspectes tecnològics, de govern, funcionals, organitzatius i econòmics
+* Ponderar sempre **tecnologia vs negoci**: la millor tecnologia no sempre és la millor solució per a l'organització → s'han de balancejar aspectes tecnològics, de govern, funcionals, organitzatius i econòmics
 
 {{% /bloc_seccio %}}
 
@@ -30,18 +30,18 @@ Principis sobre el disseny d'aplicacions
 {{% /bloc_titol %}}
 
 {{% bloc_seccio %}}
-* Segregació de funcions/responsabilitats: les aplicacions han d'estar estructuralment dividides en blocs independents per funcionalitats, processos de negoci o serveis, per tal d'evitar els monòlits → patró de microserveis:
+* **Segregació de funcions/responsabilitats**: les aplicacions han d'estar estructuralment dividides en blocs independents per funcionalitats, processos de negoci o serveis, per tal d'evitar els monòlits → patró de microserveis:
 
 	+ Aquest principi és d'aplicació a totes les capes: la divisió lògica de les funcionalitats també s'hauria de correspondre a una divisió "física” en el desplegament → un servei, una base de dades <br /> <br />
 
  
-* La presentació (client/frontend) i el backend/negoci estaran desacoblats.
+* La **presentació** (client/frontend) i el **backend/negoci** estaran **desacoblats**.
  
-* Orientació a serveis. Les aplicacions poden ser consumides externament o bé han d'integrar-se amb 3rs. Els backend han d'exposar la seva funcionalitat de negoci via serveis per facilitar-ho. Aquests serveis seran, a més, fàcilment integrables a l'API Gateway, per a ser securitzats i governats de manera centralitzada.
+* **Orientació a serveis**. Les aplicacions poden ser consumides externament o bé han d'integrar-se amb 3rs. Els backend han d'exposar la seva funcionalitat de negoci via serveis per facilitar-ho. Aquests serveis seran, a més, fàcilment integrables a l'API Gateway, per a ser securitzats i governats de manera centralitzada.
  
-* Emmagatzema a la memòria cau tot allò que sigui possible. Per fer-ho, utilitza la tecnologia que millor s'adapti tant a client (html5 cache, localstorage , etc.) com a servidor (Redis, Varnish, Memcache, caché personalitzada, etc.)
+* **Emmagatzema a la memòria cau tot allò que sigui possible**. Per fer-ho, utilitza la tecnologia que millor s'adapti tant a client (html5 cache, localstorage , etc.) com a servidor (Redis, Varnish, Memcache, caché personalitzada, etc.)
  
-* Tingues present sempre la compatibilitat cap a enrere dels teus serveis: si exposes una API REST i actualitzes el teu servei, que sigui compatible amb versions anteriors per a evitar actualitzacions innecessàries als teus consumidors i d'aquesta manera poder evolucionar el servei lliurement.
+* Tingues present sempre la **compatibilitat cap a enrere dels teus serveis**: si exposes una API REST i actualitzes el teu servei, que sigui compatible amb versions anteriors per a evitar actualitzacions innecessàries als teus consumidors i d'aquesta manera poder evolucionar el servei lliurement.
  
 * Dissenya l'aplicació o servei tenint present els conceptes d'elasticitat (enlloc de per a suportar els pics de càrrega), d'alta disponibilitat, d'alta concurrència i zero downtime.
  

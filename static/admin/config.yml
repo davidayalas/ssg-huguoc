@@ -1,0 +1,4 @@
+backend:
+  name: github
+  repo: davidayalas/ssg-huguoc 
+  branch: master 
