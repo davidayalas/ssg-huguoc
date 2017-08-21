@@ -32,7 +32,12 @@ if (!fs.existsSync(_indexDir)){
 }
 
 //gets current index
-request('https://raw.githubusercontent.com/davidayalas/ssg-huguoc/gh-pages/index.json', function (error, response, body) {
+if(!process.env.ALGOLIA_INDEX_URL){
+	console.error("No ALGOLIA_INDEX_URL defined");
+	process.exit(0);
+}
+
+request(process.env.ALGOLIA_INDEX_URL + '/index.json', function (error, response, body) {
 	if(fs.existsSync(_indexDir+"index.json")){
 		fs.unlinkSync(_indexDir+"index.json");
 	}
