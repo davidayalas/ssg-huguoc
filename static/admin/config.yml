@@ -7,9 +7,9 @@ media_folder: "static/images/uploads" # Media files will be stored in the repo u
 public_folder: "/images/uploads"
 
 collections: # A list of collections the CMS should be able to edit
-  - name: "post"
-    label: "Post"
-    folder: "content/post"
+  - name: "aq"
+    label: "Arquitectura"
+    folder: "content/aq"
     create: true
     slug: "{{slug}}"
     fields:
