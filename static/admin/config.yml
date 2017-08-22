@@ -20,8 +20,8 @@ collections: # A list of collections the CMS should be able to edit
     meta:
       - {label: "Date", name: "date", widget: "datetime"}
   - name: "ops"
-    label: "Operacions"
-    folder: "content/ops"
+    label: "Arquitectura/Secció 1"
+    folder: "content/aq/seccio1"
     create: true
     slug: "{{slug}}"
     fields:
