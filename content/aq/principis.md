@@ -1,6 +1,6 @@
 ---
 title: Principis d'Arquitectura
-weight: '2'
+weight: '1'
 ---
 {{% bloc %}}
 
@@ -91,4 +91,5 @@ Principis sobre el cost i manteniment de les solucions
 {{% /bloc_seccio %}}
 
 {{% /bloc %}}
+
 
