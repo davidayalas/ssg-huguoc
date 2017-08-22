@@ -15,7 +15,7 @@ collections: # A list of collections the CMS should be able to edit
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Description", name: "description", widget: "text", required: false}
-      - {label: "Pes", name: "weight", widget: "number", required: false}      
+      - {label: "Ordre", name: "weight", widget: "number", required: false}      
       - {label: "Body", name: "body", widget: "markdown"}
     meta:
       - {label: "Date", name: "date", widget: "datetime"}
@@ -27,7 +27,7 @@ collections: # A list of collections the CMS should be able to edit
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Description", name: "description", widget: "text", required: false}
-      - {label: "Pes", name: "weight", widget: "number", required: false}      
+      - {label: "Ordre", name: "weight", widget: "number", required: false}      
       - {label: "Body", name: "body", widget: "markdown"}
     meta:
       - {label: "Date", name: "date", widget: "datetime"}
