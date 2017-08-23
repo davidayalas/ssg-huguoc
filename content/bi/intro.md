@@ -1,7 +1,8 @@
-﻿+++
-title = "Introducció"
-weight = 1
-+++
+---
+title: Introducció
+weight: 1
+---
+{{< youtube vWwthUCGDIM >}}
 
 {{% bloc %}}
 
@@ -25,14 +26,13 @@ Què és <BIG></BIG>
 {{% bloc_seccio %}}
 
 * Lorem ipsum
-	* Lorem ipsum
-	* Lorem ipsum
-	* Lorem ipsum
-	* Lorem ipsum
-	* Lorem ipsum
-	* Lorem ipsum
-	* Lorem ipsum
-
+  * Lorem ipsum
+  * Lorem ipsum
+  * Lorem ipsum
+  * Lorem ipsum
+  * Lorem ipsum
+  * Lorem ipsum
+  * Lorem ipsum
 * Lorem ipsum
 * Lorem ipsum
 * Lorem ipsum
