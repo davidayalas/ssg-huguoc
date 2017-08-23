@@ -26,6 +26,12 @@
           </div>
           <!--./ROW-->
 
+          {{ if isset .Params "blocs" }} 
+            {{range $bloc := .Params.blocs}}
+              {{$bloc.titol}}
+            {{end}}
+          {{end}}
+
           <!--ROW-->
           <div class="row contingut">
             {{ .Content }}

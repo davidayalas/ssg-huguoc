@@ -29,7 +29,13 @@ collections: # A list of collections the CMS should be able to edit
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Description", name: "description", widget: "text", required: false}
-      - {label: "Ordre", name: "weight", widget: "number", required: false}      
+      - {label: "Ordre", name: "weight", widget: "number", required: false}
+      - name: Blocs
+        label: Bloc informacio
+        widget: list
+        fields:
+          - {label: "Títol", name: "titol", widget: string}
+          - {label: "Contingut", name: "contingut", widget: markdown}      
       - {label: "Body", name: "body", widget: "markdown"}
     meta:
       - {label: "Date", name: "date", widget: "datetime"}

@@ -38,6 +38,37 @@
       );
     }
   });
+
+  CMS.registerEditorComponent({
+    // Internal id of the component
+    id: "bloc_uoc",
+    // Visible label
+    label: "Bloc info",
+    // Fields the user need to fill out when adding an instance of the component
+    fields: [
+    	{name: 'titol', label: 'Titol seccio', widget: 'string'},
+		{name: 'contingut', label: 'Contingut seccio', widget: 'markdown'}
+    ],
+
+    // Pattern to identify a block as being an instance of this component
+    pattern: /\{\{% bloc %\}\}(\S+)\{\{% \/bloc %\}\}/,
+    // Function to extract data elements from the regexp match
+    fromBlock: function(match) {
+      return {
+        id: match[1]
+      };
+    },
+    // Function to create a text block from an instance of this component
+    toBlock: function(obj) {
+      return '{{% bloc %}}{{% bloc_titol %}}' + obj.titol + '{{% /bloc_titol %}}{{% bloc_seccio %}}' + obj.contingut + '{{% /bloc_seccio %}}{{% /bloc %}}';
+    },
+    // Preview output for this component. Can either be a string or a React component
+    // (component gives better render performance)
+    toPreview: function(obj) {
+	  return ('<h2>' + obj.title + '</h2><h3>' + obj.contingut + '</h3>');
+    }
+  });
+
   </script>  
 </body>
 </html>
