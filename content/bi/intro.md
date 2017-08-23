@@ -2,7 +2,7 @@
 title: Introducció
 weight: 1
 Blocs:
-  - contingut: B
+  - contingut: heian sodan
     titol: A
   - contingut: D
     titol: C
@@ -45,4 +45,5 @@ Què és <BIG></BIG>
 
 {{% /bloc_seccio %}}
 {{% /bloc %}}
+
 
