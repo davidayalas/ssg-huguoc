@@ -2,8 +2,6 @@
 title: Introducció
 weight: 1
 ---
-{{< youtube vWwthUCGDIM >}}
-
 {{% bloc %}}
 
 {{% bloc_titol %}}
