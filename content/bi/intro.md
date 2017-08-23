@@ -1,8 +1,7 @@
-﻿+++
-title = "Introducció"
-weight = 1
-+++
-
+---
+title: Introducció
+weight: 1
+---
 {{% bloc %}}
 
 {{% bloc_titol %}}
@@ -24,15 +23,16 @@ Què és <BIG></BIG>
 
 {{% bloc_seccio %}}
 
-* Lorem ipsum
-	* Lorem ipsum
-	* Lorem ipsum
-	* Lorem ipsum
-	* Lorem ipsum
-	* Lorem ipsum
-	* Lorem ipsum
-	* Lorem ipsum
+![uoc](/images/uploads/logo-uoc-default.png)
 
+* Lorem ipsum
+  * Lorem ipsum
+  * Lorem ipsum
+  * Lorem ipsum
+  * Lorem ipsum
+  * Lorem ipsum
+  * Lorem ipsum
+  * Lorem ipsum
 * Lorem ipsum
 * Lorem ipsum
 * Lorem ipsum
