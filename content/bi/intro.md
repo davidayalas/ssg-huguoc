@@ -1,6 +1,11 @@
 ---
 title: Introducció
 weight: 1
+Blocs:
+  - contingut: B
+    titol: A
+  - contingut: D
+    titol: C
 ---
 {{% bloc %}}
 
@@ -40,3 +45,4 @@ Què és <BIG></BIG>
 
 {{% /bloc_seccio %}}
 {{% /bloc %}}
+
