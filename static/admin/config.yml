@@ -5,6 +5,7 @@ backend:
 
 media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/images/uploads"
+#publish_mode: editorial_workflow
 
 collections: # A list of collections the CMS should be able to edit
   - name: "aq"
@@ -15,13 +16,14 @@ collections: # A list of collections the CMS should be able to edit
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Description", name: "description", widget: "text", required: false}
-      - {label: "Ordre", name: "weight", widget: "number", required: false}      
+      - {label: "Ordre", name: "weight", widget: "number", required: false} 
       - {label: "Body", name: "body", widget: "markdown"}
     meta:
       - {label: "Date", name: "date", widget: "datetime"}
-  - name: "ops"
-    label: "Arquitectura/Secció 1"
-    folder: "content/aq/seccio1"
+
+  - name: "bi"
+    label: "Business Intelligence"
+    folder: "content/bi"
     create: true
     slug: "{{slug}}"
     fields:
