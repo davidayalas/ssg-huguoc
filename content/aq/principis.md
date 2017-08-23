@@ -2,8 +2,6 @@
 title: Principis d'Arquitectura
 weight: '1'
 ---
-youtube vWwthUCGDIM
-
 {{% bloc %}}
 
 {{% bloc_titol %}}
