@@ -42,5 +42,4 @@ Què és <BIG></BIG>
 {{% /bloc_seccio %}}
 {{% /bloc %}}
 
-HOLAAAA
 
