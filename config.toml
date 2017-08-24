@@ -5,6 +5,3 @@ title = "UOC Static Site Generator"
 contentdir = "content"
 layoutdir = "layouts"
 publishdir = "public"
-
-[params]
-  _projectDir = "/ssg-huguoc"
