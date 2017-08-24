@@ -3,6 +3,7 @@ title: Introducció
 weight: 1
 Blocs: []
 ---
+
 {{% bloc %}}
 
 {{% bloc_titol %}}
