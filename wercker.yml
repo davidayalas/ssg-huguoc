@@ -3,7 +3,7 @@ build:
   steps:
     - arjen/hugo-build:
         version: "0.23"
-        config: config-ghpages.toml
+        #config: config-ghpages.toml
 deploy:
   steps:
     - install-packages:
