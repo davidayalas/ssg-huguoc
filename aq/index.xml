@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arquitectura on UOC Static Site Generator</title>
+    <link>http://localhost/aq/</link>
+    <description>Recent content in Arquitectura on UOC Static Site Generator</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ca-es</language>
+    
+	<atom:link href="http://localhost/aq/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Principis d&#39;Arquitectura</title>
+      <link>http://localhost/aq/principis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/aq/principis/</guid>
+      <description>Principis estratègics
+     Els nous sistemes i aplicacions es regiran pels principis de cloud first (i preferentment a cloud públic), mobile first (en el sentit de multidispositiu) i seran data-centric (la dada com a actiu més important de l&amp;rsquo;organització) A l&amp;rsquo;hora de construir sistemes d&amp;rsquo;informació, s&amp;rsquo;optarà preferentment per la construcció basada en serveis administrats (això és, operació inclosa en el servei). Això aplica tant:  als building blocks de desplegament: PaaS, CaaS, FaaS, SaaS per sobre de IaaS/VM als serveis existents en els clouds de referència: serveis de notificacions, cues, CDN, storage, …, per sobre de solucions desenvolupades a mida  Ponderar sempre tecnologia vs negoci: la millor tecnologia no sempre és la millor solució per a l&amp;rsquo;organització → s&amp;rsquo;han de balancejar aspectes tecnològics, de govern, funcionals, organitzatius i econòmics       Principis sobre el disseny d&amp;rsquo;aplicacions</description>
+    </item>
+    
+    <item>
+      <title>Full de Ruta de Programari</title>
+      <link>http://localhost/aq/full-de-ruta-software/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/aq/full-de-ruta-software/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

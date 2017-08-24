@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+        <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>UOC Static Site Generator</title>
+    
+    <link href="/ssg-huguoc/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/ssg-huguoc/css/bootstrap-tour.min.css" rel="stylesheet">
+    
+    <link href="/ssg-huguoc/css/video-js.css" rel="stylesheet">
+    
+    <link href="/ssg-huguoc/css/style.css" rel="stylesheet">
+    
+    
+    
+      <script src="/ssg-huguoc/js/jquery.min.js"></script>
+
+      
+      
+      <style>
+        .video-js {
+            padding-top: 56.25%
+        }
+        
+        .vjs-fullscreen {
+            padding-top: 0px
+        }
+    </style>
+
+</head>
+
+<body class="global single">
+  <header>
+                <div class="header-uoc">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-4 col-md-3">
+                            <div class="logo">
+                                <div class="name">
+                                    <p>Universitat Oberta <br />de Catalunya</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hidden-xs col-sm-8 col-md-6">
+                                <div class="block-header"> </div>
+                            </div>
+                            <div class="hidden-xs hidden-sm col-md-3">
+                                <div class="block-header"> </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-top">
+                    <div class="container">
+                        <div class="row row-table">
+                            <div class="col-md-9">
+                                <h1>Principis d&#39;Arquitectura</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-bottom">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="time">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+  </header>
+
+  <div id="content">
+  
+    <div class="info-link" data-modal="modal2">
+      <div class="container">
+        <div class="inside-container">
+
+          
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="breadcrumbs">
+                
+
+<ul>
+	<li><a href="/ssg-huguoc/">UOC Static Site Generator</a></li>
+
+  	
+
+
+
+
+
+	
+	
+	
+		<li>
+			<a href="/ssg-huguoc/aq/">
+			Arquitectura
+			</a>
+			
+			
+		</li>
+	
+
+	
+	
+	
+
+
+
+	
+
+	
+		<li>Principis d&#39;Arquitectura</li>
+	
+</ul>
+              </div>
+            </div>
+          </div>
+          
+
+          
+
+          
+          <div class="row contingut">
+            <div class="row">
+<div class="col-sm-12 col-md-3">
+    <div class="ext-link">
+    <hr class="hr-uoc">
+        <div class="inside-padd">
+            <h2><p>Principis estratègics</p>
+</h2>
+        </div>
+    </div>
+</div>
+
+<div class="col-sm-12 col-md-9">
+    <div class="row">
+        <div class="col-sm-12">
+            <hr class="hr-uoc">
+            <div class="orientation paddingR">
+            <ul>
+<li>Els nous sistemes i aplicacions es regiran pels principis de <strong>cloud first</strong> (i preferentment a <strong>cloud públic</strong>), <strong>mobile first</strong> (en el sentit de multidispositiu) i seran <strong>data-centric</strong>  (la dada com a actiu més important de l&rsquo;organització)</li>
+<li>A l&rsquo;hora de construir sistemes d&rsquo;informació, s&rsquo;optarà preferentment per la construcció basada en <em>serveis administrats</em> (això és, operació inclosa en el servei). Això aplica tant:
+
+<ul>
+<li>als building blocks de desplegament: PaaS, CaaS, FaaS, SaaS per sobre de IaaS/VM</li>
+<li>als serveis existents en els clouds de referència: serveis de notificacions, cues, CDN, storage, …, per sobre de solucions desenvolupades a mida</li>
+</ul></li>
+<li>Ponderar sempre <strong>tecnologia vs negoci</strong>: la millor tecnologia no sempre és la millor solució per a l&rsquo;organització → s&rsquo;han de balancejar aspectes tecnològics, de govern, funcionals, organitzatius i econòmics</li>
+</ul>
+
+            </div>
+        </div>
+    </div>      
+</div>
+
+</div>
+
+<p><div class="row">
+<div class="col-sm-12 col-md-3">
+    <div class="ext-link">
+    <hr class="hr-uoc">
+        <div class="inside-padd">
+            <h2><p>Principis sobre el disseny d&rsquo;aplicacions</p>
+</h2>
+        </div>
+    </div>
+</div>
+
+<div class="col-sm-12 col-md-9">
+    <div class="row">
+        <div class="col-sm-12">
+            <hr class="hr-uoc">
+            <div class="orientation paddingR">
+            <ul>
+<li><p><strong>Segregació de funcions/responsabilitats</strong>: les aplicacions han d&rsquo;estar estructuralment dividides en blocs independents per funcionalitats, processos de negoci o serveis, per tal d&rsquo;evitar els monòlits → patró de microserveis:</p>
+
+<ul>
+<li>Aquest principi és d&rsquo;aplicació a totes les capes: la divisió lògica de les funcionalitats també s&rsquo;hauria de correspondre a una divisió &ldquo;física” en el desplegament → un servei, una base de dades <br /> <br /></li>
+</ul></li>
+
+<li><p>La <strong>presentació</strong> (client/frontend) i el <strong>backend/negoci</strong> estaran <strong>desacoblats</strong>.</p></li>
+
+<li><p><strong>Orientació a serveis</strong>. Les aplicacions poden ser consumides externament o bé han d&rsquo;integrar-se amb 3rs. Els backend han d&rsquo;exposar la seva funcionalitat de negoci via serveis per facilitar-ho. Aquests serveis seran, a més, fàcilment integrables a l&rsquo;API Gateway, per a ser securitzats i governats de manera centralitzada.</p></li>
+
+<li><p><strong>Emmagatzema a la memòria cau tot allò que sigui possible</strong>. Per fer-ho, utilitza la tecnologia que millor s&rsquo;adapti tant a client (html5 cache, localstorage , etc.) com a servidor (Redis, Varnish, Memcache, caché personalitzada, etc.)</p></li>
+
+<li><p>Tingues present sempre la <strong>compatibilitat cap a enrere dels teus serveis</strong>: si exposes una API REST i actualitzes el teu servei, que sigui compatible amb versions anteriors per a evitar actualitzacions innecessàries als teus consumidors i d&rsquo;aquesta manera poder evolucionar el servei lliurement.</p></li>
+
+<li><p>Dissenya l&rsquo;aplicació o servei tenint present els conceptes d&rsquo;elasticitat (enlloc de per a suportar els pics de càrrega), d&rsquo;alta disponibilitat, d&rsquo;alta concurrència i zero downtime.</p></li>
+
+<li><p>Pensa en la portabilitat de les aplicacions, això és, que es puguin moure amb facilitat d&rsquo;un cloud privat a un cloud públic, per exemple.</p></li>
+
+<li><p>A l&rsquo;hora de dissenyar el teu sistema cal incorporar aspectes qualitatius al cicle de vida:</p>
+
+<ul>
+<li>Proves per a verificar la qualitat del codi, el suport de càrrega o requisits no funcionals del sistema.</li>
+<li>Documentació detallada del projecte (descripció d&rsquo;arquitectura, document funcional, manual de desplegament, manual d&rsquo;explotació, …).</li>
+<li>Control de versions. El sistema en el seu conjunt ha de ser tractat com un producte amb les seves versions majors, menors, etc</li>
+<li>Desplegament automatitzat, execució de proves automàtiques que verifiquin la instal·lació i integració contínua.</li>
+</ul></li>
+
+<li><p>Si has d&rsquo;emprar dades d&rsquo;un altre sistema, millor consumeix-les via serveis. Les dades d&rsquo;aquell sistema han de ser &ldquo;l&rsquo;única font de la veritat”</p></li>
+
+<li><p>Delega les decisions d&rsquo;autenticació en el proveïdor d&rsquo;identitat de la UOC (IdP) utilitzant el protocol SAML. Les decisions d&rsquo;autorització s&rsquo;haurien de prendre en l&rsquo;àmbit de l&rsquo;aplicació, però preferiblent amb les dades proporcionades pel IdP.</p></li>
+</ul>
+
+            </div>
+        </div>
+    </div>      
+</div>
+
+</div></p>
+
+<p><div class="row">
+<div class="col-sm-12 col-md-3">
+    <div class="ext-link">
+    <hr class="hr-uoc">
+        <div class="inside-padd">
+            <h2><p>Principis sobre la tecnologia</p>
+</h2>
+        </div>
+    </div>
+</div>
+
+<div class="col-sm-12 col-md-9">
+    <div class="row">
+        <div class="col-sm-12">
+            <hr class="hr-uoc">
+            <div class="orientation paddingR">
+            <ul>
+<li>Utilitza la tecnologia que millor encaixi al cas d&rsquo;ús, si cal combinant tecnologies, ja que en un mateix sistema en poden conviure diverses: per exemple, en dividir les aplicacions en serveis, no tots tenen perquè estar construïts en els mateixos llenguatges o utilitzar les mateixes bases de dades.</li>
+<li>Els serveis (backend) exposaran el seu negoci preferentment mitjançant REST i en format JSON.</li>
+<li>En el cas d&rsquo;aplicacions web, la presentació estarà construïda amb tecnologies estàtiques (html5/javascript/css) i consumirà els serveis que li proporcioni el backend.</li>
+<li>Davant solucions estàndards utilitzarem preferentment les tecnologies del Full de Ruta Tecnològic (en definició). Aquest fet no exclou que per a noves solucions es puguin utilitzar altres tecnologies, que eventualment passaran a formar-ne part.</li>
+<li>Planifica i gestiona l&rsquo;obsolescència tecnològica (sistemes operatius, middlewares, frameworks de desenvolupament, productes, &hellip;): és una inversió que reduirà riscos</li>
+</ul>
+
+            </div>
+        </div>
+    </div>      
+</div>
+
+</div></p>
+
+<p><div class="row">
+<div class="col-sm-12 col-md-3">
+    <div class="ext-link">
+    <hr class="hr-uoc">
+        <div class="inside-padd">
+            <h2><p>Principis sobre el cost i manteniment de les solucions</p>
+</h2>
+        </div>
+    </div>
+</div>
+
+<div class="col-sm-12 col-md-9">
+    <div class="row">
+        <div class="col-sm-12">
+            <hr class="hr-uoc">
+            <div class="orientation paddingR">
+            <ul>
+<li>Cal tenir presents els costos d&rsquo;infraestructura i el model de llicenciament requerits per a posar en marxa una solució ja que representen un cost recurrent.</li>
+<li>Pensa en els costos i en la seva optimització:
+
+<ul>
+<li>Monitoritza els teus serveis per a identificar necessitats d&rsquo;ampliació o reducció de recursos i poder ajustar els costos en conseqüència</li>
+<li>Arquitectura/dissenya les càrregues de treball amb els costos en ment</li>
+</ul></li>
+<li>&ldquo;Opensource vs Comercial vs Construcció a mida”: quan no anem a SaaS o serveis administrats en un cloud de referència, en concebre una nova solució, s&rsquo;ha de regir pel següent arbre de decisió:
+
+<ul>
+<li>Per a problemes comuns, utilitza &ldquo;Opensource”.</li>
+<li>Per a problemes poc comuns, compra.</li>
+<li>Per a problemes únics, construeix.</li>
+</ul></li>
+<li>És molt possible que una solució estigui composada per diferents peces, així que l&rsquo;aplicació d&rsquo;aquests punt, pot aplicar a una part de la solució (per exemple, escollir un producte opensource, però adaptat amb desenvolupament a mida) o bé, ens podem trobar que la voluntat d&rsquo;excel·lència i diferenciació de la UOC, ens porti a fer un desenvolupament a mida.</li>
+<li>A l&rsquo;hora de triar entre utilitzar un producte (opensource o comercial) o fer un desenvolupament a mida cal fer una avaluació del cost vs. benefici de l&rsquo;opció triada respecte a les altres.</li>
+<li>Pensa en l&rsquo;impacte d&rsquo;actualització que pugui tenir un canvi de sistema operatiu, middleware o producte allà on corre l&rsquo;aplicació: quant menys acoblament amb el sistema de base i utilitzant estàndards, més senzilla serà l&rsquo;actualització o l&rsquo;ampliació de funcionalitats de l&rsquo;aplicació.</li>
+</ul>
+
+            </div>
+        </div>
+    </div>      
+</div>
+
+</div></p>
+
+          </div> 
+          
+
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+    <footer role="contentinfo" class="hidden-xs">
+                      <div class="container">
+                <div class="row">
+                  <div class="col-sm-3 col-lg-4">
+                    <h4>Universitat Oberta de Catalunya</h4>
+                  </div>
+                </div>
+              </div>
+            
+    </footer>
+
+</body>
+
+</html>
