@@ -3,45 +3,17 @@ title: Introducció
 weight: 1
 Blocs: []
 ---
+**Business Intelligence (BI)** comprises the strategies and technologies used by enterprises for the data analysis of business information. BI technologies provide historical, current and predictive views of business operations. Common functions of business intelligence technologies include:
 
-{{% bloc %}}
+* reporting
+* online analytical processing
+* analytics
+* data mining
+* process mining
+* complex event processing
+* business performance management
+* benchmarking
+* text mining
+* predictive analytics and prescriptive analytics. 
 
-{{% bloc_titol %}}
-Això és la introducció
-{{% /bloc_titol %}}
-
-{{% bloc_seccio %}}
-
-Lorem ipsum
-
-{{% /bloc_seccio %}}
-{{% /bloc %}}
-
-{{% bloc %}}
-
-{{% bloc_titol %}}
-Què és <BIG></BIG>
-{{% /bloc_titol %}}
-
-{{% bloc_seccio %}}
-
-* Lorem ipsum
-  * Lorem ipsum
-  * Lorem ipsum
-  * Lorem ipsum
-  * Lorem ipsum
-  * Lorem ipsum
-  * Lorem ipsum
-  * Lorem ipsum
-* Lorem ipsum
-* Lorem ipsum
-* Lorem ipsum
-* Lorem ipsum
-* Lorem ipsum
-* Lorem ipsum
-
-{{% /bloc_seccio %}}
-{{% /bloc %}}
-
-
-
+BI technologies can handle large amounts of structured and sometimes unstructured data to help identify, develop and otherwise create new strategic business opportunities. They aim to allow for the easy interpretation of these big data. Identifying new opportunities and implementing an effective strategy based on insights can provide businesses with a competitive market advantage and long-term stability.\[2\]
